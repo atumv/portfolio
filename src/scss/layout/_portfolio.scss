@@ -1,0 +1,77 @@
+.portfolio {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 2%;
+  padding-bottom: 64px;
+
+  @media(max-width: 768px) {
+    padding-bottom: 48px;
+  }
+
+  &__website {
+    position: relative;
+
+    margin: 0.2rem;
+  }
+}
+
+.projects-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.website-link {
+  border-radius: 5px;
+
+  @media(max-width: 768px) {
+    margin-bottom: 12.8px;
+  }
+
+  &:hover {
+    .website__title {
+      background-color: rgba(9, 11, 24, 0.6);
+    }
+  }
+}
+
+.website {
+  min-width: 300px;
+  min-height: 189px;
+  max-width: 336px;
+  max-height: 189px;
+  
+  background: #131939;
+  
+  overflow: hidden;
+
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+  &__thumb {
+    width: 100%;
+    height: auto;
+  }
+
+  &__title {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    padding: 4px 8px;
+
+    font-size: 1.5rem;
+    color: $portfolio-font-color;
+    text-shadow: 1px 1px 3px #1d1d1d;
+
+    background-color: rgba(9, 11, 24, 0.75);
+
+    transition: background-color 0.2s linear;
+
+    @media(max-width: 768px) {
+      text-align: center;
+    }
+  }
+}
