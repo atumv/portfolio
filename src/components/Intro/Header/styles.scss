@@ -1,0 +1,21 @@
+@use 'styles/variables' as v;
+
+.intro__header {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  margin-left: 0.9rem;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  color: v.$intro-font-color;
+
+  @media (max-width: 768px) {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+
+.intro__hand-img {
+  width: 17px;
+  height: auto;
+}

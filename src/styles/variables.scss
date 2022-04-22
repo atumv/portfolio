@@ -1,10 +1,13 @@
-$font: "Source Sans Pro", "Open Sans", "Roboto", "Nunito", "Fira Sans", "Arial", sans-serif;
+// Fonts
+
+$font: 'Source Sans Pro', 'Open Sans', 'Roboto', 'Nunito', 'Fira Sans', 'Arial',
+  sans-serif;
 $font-weight: 300;
+
+// Colors
 
 $body-bg: #090b18;
 $body-font-color: #afb2c7;
-
 $intro-font-color: #afb2c7;
 $portfolio-font-color: #c1c1c1;
-
 $icon-color: #1a86d8;

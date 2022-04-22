@@ -1,6 +1,7 @@
-import React from "react";
+import React from 'react';
+import './styles.scss';
 
-const Email = ({ email }) => (
+export const Email = ({ email }) => (
   <a className="contacts__link" href={`mailto:${email}`}>
     <svg
       className="contacts-icon"
@@ -11,5 +12,3 @@ const Email = ({ email }) => (
     </svg>
   </a>
 );
-
-export default Email;

@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-const Github = ({ github }) => (
+export const Github = ({ github }) => (
   <a className="contacts__link" href={github}>
     <svg
       className="contacts-icon"
@@ -11,5 +11,3 @@ const Github = ({ github }) => (
     </svg>
   </a>
 );
-
-export default Github;
