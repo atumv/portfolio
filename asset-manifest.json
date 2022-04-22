@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "./static/css/main.8ee5e35c.css",
+    "main.js": "./static/js/main.f2d495ec.js",
+    "static/media/movie-db.png": "./static/media/movie-db.f6953b9b446623db1bad.png",
+    "static/media/app.jpg": "./static/media/app.7746e2d645ef505124e7.jpg",
+    "static/media/phototime.jpg": "./static/media/phototime.93de8788c64aa9c5e830.jpg",
+    "static/media/my-thoughts.jpg": "./static/media/my-thoughts.f13550c07f5f9d2f952d.jpg",
+    "static/media/arkenea.jpg": "./static/media/arkenea.6eea7f84cee6e3039204.jpg",
+    "static/media/travelly.jpg": "./static/media/travelly.9730ebc019a064840989.jpg",
+    "static/media/image-search.jpg": "./static/media/image-search.644369fe61d5344166f9.jpg",
+    "static/media/weather.png": "./static/media/weather.f9bd02b62e709f8cde07.png",
+    "static/media/tinyone.jpg": "./static/media/tinyone.fa78d55ad829e9ce3b43.jpg",
+    "static/media/author.jpg": "./static/media/author.97355a734d334e9abd98.jpg",
+    "static/media/hand.svg": "./static/media/hand.3aa94dfc3ad1705f48f3ca1cc93edad7.svg",
+    "index.html": "./index.html",
+    "main.8ee5e35c.css.map": "./static/css/main.8ee5e35c.css.map",
+    "main.f2d495ec.js.map": "./static/js/main.f2d495ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ee5e35c.css",
+    "static/js/main.f2d495ec.js"
+  ]
+}
