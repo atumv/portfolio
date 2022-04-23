@@ -1,14 +1,23 @@
 @use 'styles/variables' as v;
 
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../assets/fonts/SourceSansPro-Light.woff2') format('woff2'),
+    url('../assets/fonts/SourceSansPro-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: 0;
+  box-sizing: border-box;
   font-weight: v.$font-weight;
   font-family: v.$font;
-  border: 0;
 }
 
 body {
@@ -31,19 +40,19 @@ body::before {
   background: linear-gradient(45deg, transparent, #1f285d, transparent);
 }
 
-noscript {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 a {
   text-decoration: none;
 }
 
 ul {
   list-style-type: none;
+}
+
+noscript {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
